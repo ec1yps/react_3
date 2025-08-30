@@ -2,7 +2,7 @@
   "name": "react_3",
   "version": "0.1.0",
   "private": true,
-  "homepagу": "https://ec1yps.github.io/react_3/",
+  "homepage": "https://ec1yps.github.io/react_3/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
