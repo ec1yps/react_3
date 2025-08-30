@@ -4,13 +4,18 @@ import './Hello.css';
 class Hello extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { text: "hello" }
+        this.state = { text: "Hello", sign: "Rus" }
+    }
+    changeText = () =>{
+        this.setState({text: this.state.text === "Hello" ? "Привет" : "Hello"});
+        this.setState({sign: this.state.sign === "Rus" ? "Eng" : "Rus"});
     }
     render() {
         return (
-            <div className='hello'>
-				{this.state.text}
-			</div>
+            <div className='App-hello'>
+                <button className='btn' onClick={this.changeText}>{this.state.sign}</button>
+                <div className='hello'> {this.state.text} </div>
+            </div>
         );
     }
 }

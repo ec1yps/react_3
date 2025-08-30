@@ -1,6 +1,11 @@
+.App-hello{
+    background-color: #282c34;
+    padding:15px;
+}
+
 .hello {
     font-size: 32px;
     color:orange;
     background-color: #282c34;
-    padding: 15px;
+    padding-top: 15px;
 }
